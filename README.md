@@ -75,7 +75,7 @@ Most n8n "collections" are thousand-file dumps scraped from the web, full of bro
 
 | Workflow | Key integrations | Nodes |
 |---|---|:--:|
-| [HDW Lead Gelndewagen](workflows/sales-crm/hdw-lead-gel-ndewagen.json) | Google Sheets, Hdw Linkedin, Hdw Linkedin Management, Hdw Web Parser Tool | 93 |
+| [HDW Lead Gelndewagen](workflows/sales-crm/linkedin-lead-scraping-horizondatawave.json) | Google Sheets, Hdw Linkedin, Hdw Linkedin Management, Hdw Web Parser Tool | 93 |
 | [LinkedIn Leads Scraping & Enrichment (Main)](workflows/sales-crm/linkedin-leads-scraping-enrichment.json) | Google Sheets, Google Sheets Trigger | 66 |
 | [Automate Sales Meeting Prep with AI & APIFY Sent To WhatsApp](workflows/sales-crm/automate-sales-meeting-prep-with-ai-apify-sent-to-whatsapp.json) | Chain Llm, Gmail, Google Calendar, Information Extractor | 61 |
 
