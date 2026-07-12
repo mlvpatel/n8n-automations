@@ -5,6 +5,8 @@ useDefault = true
 [allowlist]
 description = "Placeholder keys shown in workflow templates for users to replace"
 regexes = [
+  '''linkedinObject''',
+  '''resourcekey=YOUR_RESOURCE_KEY''',
   '''INSERT YOUR KEY HERE''',
   '''BEGIN PRIVATE KEY-----\\n\[INSERT''',
   '''YOUR_[A-Z_]+''',
