@@ -56,7 +56,7 @@ Workflows in this collection are built on:
 
 ## ⭐ Featured
 
-**[Deep Research Agent](workflows/ai-agents-rag/host-your-own-ai-deep-research-agent-with-n8n-apify-and-openai-o3.json)**  
+**[Deep Research Agent](workflows/ai-agents-rag/host-your-own-ai-deep-research-agent-with-n8n-apify-and-openai.json)**  
 A self-hosted research agent that plans, searches the live web via Apify, and synthesizes a cited report — your own private version of Deep Research.
 
 **[RAG Chatbot over Google Drive](workflows/ai-agents-rag/ai-powered-rag-chatbot-for-your-docs-google-drive-gemini-qdrant.json)**  
@@ -106,7 +106,7 @@ Version-controls your entire n8n instance to Google Drive on a schedule — insu
 
 | Workflow | Trigger | Built with | Nodes |
 |---|:--:|---|:--:|
-| [Host Your Own AI Deep Research Agent with n8n, Apify and OpenAI o3](workflows/ai-agents-rag/host-your-own-ai-deep-research-agent-with-n8n-apify-and-openai-o3.json) | `Form` | OpenAI · LLM · HTTP · Notion · Gemini | 87 |
+| [Host Your Own AI Deep Research Agent with n8n, Apify and OpenAI](workflows/ai-agents-rag/host-your-own-ai-deep-research-agent-with-n8n-apify-and-openai.json) | `Form` | OpenAI · LLM · HTTP · Notion · Gemini | 87 |
 | [AI Powered RAG Chatbot for Your Docs + Google Drive + Gemini + Qdrant](workflows/ai-agents-rag/ai-powered-rag-chatbot-for-your-docs-google-drive-gemini-qdrant.json) | `Event` | Google Drive · Telegram · Webhook · Google Docs | 50 |
 | [Send a ChatGPT email reply and save responses to Google Sheets](workflows/ai-agents-rag/send-a-chatgpt-email-reply-and-save-responses-to-google-sheets.json) | `Gmail` | OpenAI · Gmail · Google Sheets · Webhook | 49 |
 
@@ -282,22 +282,6 @@ Version-controls your entire n8n instance to Google Drive on a schedule — insu
 > **No secrets required from this repo.** Every credential is blanked and labelled, so nothing here can leak — you plug in your own keys inside n8n's credential manager.
 
 ---
-
-## 🔒 Quality & security
-
-Each workflow passes an automated gate on every change:
-
-- **Structure** — valid JSON and a sound node graph (no broken connections, no duplicate nodes)
-- **Freshness** — no deprecated nodes, no legacy AI models
-- **Secrets** — scanned with [gitleaks](https://github.com/gitleaks/gitleaks) across the full history; secret-scanning and push protection are enabled on the repository
-
-See [SECURITY.md](SECURITY.md) for the full sanitization standard.
-
----
-
-## 🙏 Credits
-
-These workflows are curated and modernized from the open-source **n8n community**, whose templates are shared under the MIT license. Original authors retain rights to their workflow logic; the curation, engineering, and modernization here are my own. See [NOTICE](NOTICE) for details.
 
 ## 📄 License
 
