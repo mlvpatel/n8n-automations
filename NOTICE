@@ -1,0 +1,21 @@
+n8n Automations
+Copyright (c) 2026 Malav Patel (@mlvpatel)
+
+This collection curates, modernizes, and re-packages n8n workflow templates
+from the open-source community. Those templates are distributed under the MIT
+License by their respective authors, and their original rights are retained.
+
+Community sources this collection draws from include:
+  - The official n8n community workflow library (https://n8n.io/workflows)
+  - Zie619/n8n-workflows (MIT)
+  - enescingoz/awesome-n8n-templates (MIT)
+  - felipfr/awesome-n8n-workflows (MIT)
+
+The curation, quality auditing, security sanitization, modernization to current
+n8n nodes and AI models, categorization, and documentation in this repository
+are original work by the maintainer and are likewise released under the MIT
+License (see LICENSE).
+
+If you are the author of a workflow included here and would like different
+attribution or removal, please open a private security advisory or contact the
+maintainer, and it will be addressed promptly.
